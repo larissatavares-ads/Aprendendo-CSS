@@ -1,0 +1,14 @@
+* {margin:0; padding:0; color:red;}
+/*O seletor * é chamado de seletor universal, pois altera todas as configurações do texto*/
+
+
+h1 {color:blue; font-size:60px; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+p {color:green; font-size:30px;}
+/*Esse é considerado um seletor TAG*/
+
+
+input[type="text"]{width:200px; background-color:#ccc; height:40px; border:none;}
+input[name="email"]{width:200px; background-color:#FFFF00;}
+input[type="submit"]{width:50px; background-color: green; height:35px; border:none; cursor:pointer; color:#fff;}
+/*Seletor do tipo atributo, ele funciona com qualquer atributo
+exemplo [type="text"] e [name="email"]*/
