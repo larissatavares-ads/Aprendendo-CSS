@@ -1,0 +1,33 @@
+#exemplo {
+    border-style: dotted;
+}
+#exemplo1 {
+    border-style: dashed;
+}
+#exemplo2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
+/*OU*/
+#exemplo3 {
+    border: double 5px red;
+}
+/*São duas formas de escrever*/
+#exemplo4 {
+    border-top: groove 5px red;
+    border-right: groove 5px blue;
+    border-left: groove 5px green;
+    border-bottom: groove 5px yellow;
+}
+#exemplo5 {
+    border-style: ridge;
+    outline: dotted 5px green;
+    /*Outline adiciona uma borda fora da borda*/
+}
+#exemplo6 {
+    border-style: inset;
+}
+#exemplo7 {
+    border-style: outset;
+}
