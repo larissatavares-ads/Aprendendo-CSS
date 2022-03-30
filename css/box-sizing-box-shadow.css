@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+/*Usamos um seletos universal para toda vez que houver um padding
+essa característica se aplique*/
+/*Box sizing serve para ajustar a largura (width) para exatamente
+o valor que coloquei*/
+
+#conteudo {
+    background-color: red;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px green;
+}
+
+/*Box-shadow serve para colocar sombra*/

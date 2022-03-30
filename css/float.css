@@ -1,0 +1,22 @@
+#base {
+    background-color: green;
+    color: white;
+    width: 600px;
+    height: 600px;
+}
+
+#esquerda {
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#direita {
+    background-color: blue;
+    color: white;
+    width: 300px;
+    height: 300px;
+    float: right;
+}

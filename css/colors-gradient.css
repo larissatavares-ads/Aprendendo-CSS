@@ -1,0 +1,25 @@
+#cores {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color:white;
+}
+
+/*Pode ser usado também os valores em hexadecimal, HSL, hsla, RGB, rgba (para 
+adicionar opacidade: 
+background-color:rgba(230, 89, 225, 0.5);
+) */ 
+
+#cores1 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to right, red, blue);
+    color:white;
+}
+
+#cores2 {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(red, blue);
+    color:white;
+}

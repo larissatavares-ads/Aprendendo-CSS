@@ -1,0 +1,9 @@
+#exemplo {background-color:green; color:#fff; width:500px; padding-top:10px; padding-right:30px; padding-bottom:20px; padding-left:5px;}
+/*OU*/
+#texto {background-color:red; color:#fff; width:500px; padding:10px 30px 20px 5px;}
+
+/*Padding é um espaçamento interno*/
+
+
+#exemplo2 {background-color:blue; color:#fff; width:500px; margin-top:20px; margin-left:20px;}
+/*Margin faz a div se afastar da que está em cima e das laterais, é um espaçamento externo*/

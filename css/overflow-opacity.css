@@ -1,0 +1,18 @@
+#conteudo {
+    background-color: red;
+    color: white;
+    width: 300px;
+    height: 70px;
+    overflow: auto;
+}
+
+/*Aqui meu conteúdo excede a minha div
+o overflo: auto cria uma barra de rolagem automaticamente
+para o que está sendo necessário
+*/
+
+#conteudo p {
+    opacity: 0.5;
+}
+/*Opacity atribui nível de transparência
+*/

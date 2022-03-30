@@ -1,0 +1,28 @@
+#bloco {
+    background-color: green;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+#bloco1 {
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 50px;
+}
+
+#bloco2 {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 50px 100px 200px;
+}
+
+#bloco3 {
+    background-color: orange;
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 20px;
+}
+/*border-top-left-radius etc se usa para alterar apenas uma das bordas existentes*/
