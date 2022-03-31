@@ -20,12 +20,11 @@ Letter-spacing coloca espaço entre as letras
 Word spacing coloca espaço entre as palavras
 */
 
-
-
 h1 {
     text-align:left; 
     text-decoration:underline;
     text-shadow: 3px 30px 4px red;
+    
 }
 h2 {
     text-align:right; 
@@ -37,5 +36,3 @@ h3 {
 }
 /*Text-align define a posição do texto*/
 /*Text-decoration adiciona linhas em baixo, em cima e no centro do texto*/
-
-

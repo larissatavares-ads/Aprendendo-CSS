@@ -1,0 +1,18 @@
+img {
+    margin: 40px 0 0 60px;
+    filter: blur(4px);
+}
+
+/*
+Outros tipos de filter:
+    filter: brightness(170%);
+    filter: contrast(150%);
+    filter: grayscale(50%); //tons de cinza
+    filter: invert(80%); //inverte as cores
+    filter: opacity(20%); //para aplicar transparencia
+    filter: saturate(60%); //alterar a saturação
+    filter: sepia(50%); //coloca o tom sépia
+    filter: hue-rotate(100deg); //muda as cores de acordo com o angulo da propriedade
+    filter: drop-shadow(10px 20px 5px #000);  //o 1 parametro é o offset horizontal, o 2 é vertical
+    o 3 é desfoque, e o 4 é a cor
+*/

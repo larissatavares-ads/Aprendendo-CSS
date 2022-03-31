@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Estilizando via URL</title>   
+  <meta charset="utf-8">
+  
+  <style>
+
+    .noticia:target {
+        background-color: #c3c3c3;
+        padding: 10px;
+    }
+
+    /*Quando clicamos no link, a estilização ocorre para o link
+    definido*/
+
+  </style>
+
+</head>
+
+<body>
+
+    <a href="#noticia1">Noticia 01</a>
+    <a href="#noticia2">Noticia 02</a>
+
+    <div id="noticia1" class="noticia">
+        <h1>Título da Notícia</h1>
+        <p>Um texto qualquer</p>  
+    </div>
+
+    <div id="noticia2" class="noticia">
+        <h1>Título da Notícia</h1>
+        <p>Um texto qualquer</p>  
+    </div>
+
+</body>
+
+</html>

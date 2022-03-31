@@ -1,0 +1,52 @@
+.container {
+    background-color: red;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*Adicionando o float left faz com que não ocorra a quebra, porém
+só vai funcionar se a div possuir um tamanho fixo, ou se ela tiver
+100% de largura
+
+Se nossas configurações não se encaixarem nesses pré requisitos, podemos 
+usar display: table;, porém alguns desenvolvedores não gostam
+pois existem erros com esse atributo também*/
+
+.box1 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.box2 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.container::before, .container::after {
+    content: "";
+    display: table;
+}
+
+.container::after {
+    clear: both;
+}
+
+/*Clearfix é uma técnica para reparar alguns problemas do float
+esse código feito acima, é o mais inteligente para ajustar os problemas 
+no float
+
+.box2 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+Se fizer só assim como está no código acima, vai ocorrer uma quebra 
+no layout
+
+*/
