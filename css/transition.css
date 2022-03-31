@@ -1,0 +1,27 @@
+#exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s linear;
+}
+
+/*A propriedade all faz com que todas as propriedades trabalhem 
+com a mesma duração*/
+
+/*Pode ser escrita dessa forma também:
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    */
+
+#exemplo:hover {
+    width: 350px;
+    height: 350px;
+    background-color: green;
+}
+
+/*Essa é uma pseudoclasse, ela controla o estado do elemento 
+quando passamos o mouse por cima
+
+A propriedade transition serve para suavizar a transição de estado*/
